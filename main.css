@@ -3,5 +3,56 @@
     font-family: "Poppins", serif;
     font-weight: 300;
     box-sizing: border-box;
+    background-color: rgba(3, 2, 20, 0.5);
+    margin: 0;
 }
-.sidebar .image-text .image .l
+body{
+    height:100vh;
+}
+.sidebar {
+    height:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    width:300px;
+    padding:15px 10px;
+    background: rgb(4, 4, 23);
+}
+.sidebar header{
+    display: flex;
+}
+.sidebar header .image-text .image img{
+    height:100px;
+    width:100px;
+}
+.sidebar header .image-text{
+    display: flex;
+   
+    align-items: center;
+}
+.sidebar .text-header-text .name{
+    color:white;
+    font-weight: 500;
+    font-size: large;
+    font-size: 17px;
+    padding-top: 25px;
+}
+.sidebar .text-header-text{
+    display:flex;
+    flex-direction: column;
+}
+.sidebar .text-header-text .designation{
+    color:white;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+}
+.sidebar i{
+    color:white;
+}
+.sidebar header .toggle{
+    position:absolute;
+    top:50%;
+    left:-25px;
+    transform: translate();
+}
