@@ -27,7 +27,6 @@ body{
 }
 .sidebar header .image-text{
     display: flex;
-   
     align-items: center;
 }
 .sidebar .text-header-text .name{
