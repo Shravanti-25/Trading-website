@@ -1,57 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     font-family: "Poppins", serif;
     font-weight: 300;
     box-sizing: border-box;
     background-color: rgba(3, 2, 20, 0.5);
     margin: 0;
 }
-body{
-    height:100vh;
+
+body {
+    height: 100vh;
 }
+
 .sidebar {
-    height:100%;
-    top:0;
-    left:0;
-    position:fixed;
-    width:300px;
-    padding:15px 10px;
+    height: 100%;
+    /* top: 0;
+    left: 0; */
+    position: fixed;
+    width: 300px;
+    padding: 15px 10px;
     background: rgb(4, 4, 23);
 }
-.sidebar header{
+
+.sidebar header {
     display: flex;
 }
-.sidebar header .image-text .image img{
-    height:100px;
-    width:100px;
+
+.sidebar header .image-text .image img {
+    height: 100px;
+    width: 100px;
 }
-.sidebar header .image-text{
+
+.sidebar header .image-text {
     display: flex;
     align-items: center;
 }
-.sidebar .text-header-text .name{
-    color:white;
+
+.sidebar .text-header-text .name {
+    color: white;
     font-weight: 500;
     font-size: large;
     font-size: 17px;
     padding-top: 25px;
 }
-.sidebar .text-header-text{
-    display:flex;
+
+.sidebar .text-header-text {
+    display: flex;
     flex-direction: column;
 }
-.sidebar .text-header-text .designation{
-    color:white;
+
+.sidebar .text-header-text .designation {
+    color: white;
     font-weight: 300;
     justify-content: center;
     text-align: center;
 }
-.sidebar i{
-    color:white;
+
+.sidebar i {
+    color: white;
 }
-.sidebar header .toggle{
-    position:absolute;
-    top:50%;
-    left:-25px;
+
+.sidebar header .toggle {
+    position: absolute;
+    top: 50%;
+    left: -25px;
     transform: translate();
+}
+
+.sidebar li {
+    color: red;
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li .icon {
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 70%;
+    height: 70%;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+
+.sidebar li a {
+    text-decoration: none;
+    color: white;
 }
