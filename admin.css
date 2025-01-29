@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", serif;
+}
+h2{
+    color:white;
+    margin:35px auto;
+    position:relative;
+    width:80%;
+    padding:0px;
+    margin-top: 3px;
+}
+.hero{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(fimg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width:380px;
+    height:520px;
+    position:relative;
+    margin: 6% auto;
+    background: rgba(3, 2, 20, 0.75);
+    padding: 20px;
+    color:aliceblue;
+    overflow:hidden;
+}
+.button-box{
+    width:320px;
+    margin: 25px auto;
+    position:relative;
+    box-shadow: 0px 4px 15px white;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding:20px 50px;
+    cursor:pointer;
+    font-size: 15px;
+    background: transparent;
+    border:0;
+    position:relative;
+    color:red;
+    font-weight: 500;
+}
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:160px;
+    height:100%;
+    background: linear-gradient(to right,aliceblue,aliceblue);
+    color:rgba(3, 2, 20, 0.75);
+    border-radius: 30px;
+    transition: .5s;
+}
+.hero .social-media{
+    color:white;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px;
+    font-size: 30px;    
+}
+.input-group{
+    
+    position:absolute;
+    width:350px;
+    transition: .5s;
+}
+.input-field{
+    width:100%;
+    padding:15px;
+    margin:5px 0;
+   border-radius: 20px;
+    border:3px solid white;
+    background: transparent;
+    color:white;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+.input-wrapper {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+}
+
+.input-field {
+    width: 85%;
+    padding: 15px 15px 15px 45px; /* Add padding for icon space */
+    margin: 5px 0;
+    border-radius: 20px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+}
+
+span{
+    color:white;
+    position:relative;
+}
+.input-group input::placeholder{
+    color:white;
+}
+.submit-btn{
+    margin-top: 5px;
+    width:50%;
+    padding-left: 2px;
+    padding-right:2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor:pointer;
+    display: block;
+    margin-bottom: auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background: linear-gradient(to right,aliceblue,aliceblue);
+    border-radius: 30px;
+}
+#left{
+    left:450px;
+}
+#register{
+    left:650px;
+}
