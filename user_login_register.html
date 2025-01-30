@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin-login/signup</title>
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="user_login_register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -16,17 +16,17 @@
                 <button type="button" class="toggle-btn" onclick="login()">Login</button>
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
-            <form id="login" class="input-group">
-                <div class="input-wrapper">
+            <form id="login" class="input-groupp">
+                <div class="input-wrapperr">
                     <i class='bx bx-user'></i>
-                    <input type="text" class="input-field" placeholder="UserName" required>
+                    <input type="text" class="input-fieldd" placeholder="UserName" required>
                 </div>
-                <div class="input-wrapper">
+                <div class="input-wrapperr">
                     <i class='bx bx-lock'></i>
-                    <input type="password" class="input-field" placeholder="Password" required>
+                    <input type="password" class="input-fieldd" placeholder="Password" required>
                 </div>
-                <input type="checkbox" class="check-box"><span>Remember Password</span>
-                <button type="submit" class="submit-btn">Login</button>
+                <input type="checkbox" class="check-boxx"><span>Remember Password</span>
+                <button type="submit" class="submit-btnn">Login</button>
             </form>
             
             <form id="register" class="input-group">
@@ -39,8 +39,16 @@
                     <input type="text" class="input-field" placeholder="Email ID" required>
                 </div>
                 <div class="input-wrapper">
+                    <i class='bx bx-phone'></i>
+                    <input type="text" class="input-field" placeholder="Contact" required>
+                </div>
+                <div class="input-wrapper">
                     <i class='bx bx-lock'></i>
                     <input type="password" class="input-field" placeholder="Password" required>
+                </div>
+                <div class="input-wrapper">
+                    <i class='bx bx-lock'></i>
+                    <input type="password" class="input-field" placeholder="Confirm Password" required>
                 </div>
                 <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
                 <button type="submit" class="submit-btn">Register</button>

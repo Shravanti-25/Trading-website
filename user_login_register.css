@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
      margin: 0;
      padding: 0;
      font-family: "Poppins", serif;
+    
+}
+body, html {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
 }
 h2{
     color:white;
@@ -11,21 +16,25 @@ h2{
     position:relative;
     width:80%;
     padding:0px;
-    margin-top: 3px;
+    margin-top: 2px;
 }
 .hero{
     height:100%;
     width:100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(fimg.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
     position: absolute;
+    background-position:center; 
+    
 }
 .form-box{
     width:380px;
-    height:520px;
+    height:585px;
     position:relative;
-    margin: 6% auto;
+    margin: 3% auto;
     background: rgba(3, 2, 20, 0.75);
     padding: 20px;
     color:aliceblue;
@@ -33,7 +42,8 @@ h2{
 }
 .button-box{
     width:320px;
-    margin: 25px auto;
+    height:60px;
+    margin: 8px auto;
     position:relative;
     box-shadow: 0px 4px 15px white;
     border-radius: 30px;
@@ -74,6 +84,12 @@ h2{
     width:350px;
     transition: .5s;
 }
+.input-groupp{
+    
+    position:absolute;
+    width:350px;
+    transition: .5s;
+}
 .input-field{
     width:100%;
     padding:15px;
@@ -83,14 +99,29 @@ h2{
     background: transparent;
     color:white;
 }
+.input-fieldd{
+    width:100%;
+    padding:15px;
+    margin:5px 0;
+   border-radius: 20px;
+    border:3px solid white;
+    background: transparent;
+    color:white;
+}
 .check-box{
-    margin: 30px 10px 30px 0;
+    margin: 10px 10px 10px 0;
+}
+.check-boxx{
+    margin: 10px 10px 10px 0;
 }
 .input-wrapper {
     position: relative;
     margin: 10px 0;
 }
-
+.input-wrapperr {
+    position: relative;
+    margin: 16px 0;
+}
 .input-wrapper i {
     position: absolute;
     left: 15px;
@@ -99,7 +130,14 @@ h2{
     color: white;
     font-size: 20px;
 }
-
+.input-wrapperr i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+}
 .input-field {
     width: 85%;
     padding: 15px 15px 15px 45px; /* Add padding for icon space */
@@ -109,6 +147,16 @@ h2{
     background: transparent;
     color: white;
 }
+.input-fieldd {
+    width: 85%;
+    padding: 15px 15px 15px 45px; /* Add padding for icon space */
+    margin: 5px 0;
+    border-radius: 20px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+}
+
 
 span{
     color:white;
@@ -117,8 +165,27 @@ span{
 .input-group input::placeholder{
     color:white;
 }
+.input-groupp input::placeholder{
+    color:white;
+}
 .submit-btn{
     margin-top: 5px;
+    width:50%;
+    padding-left: 2px;
+    padding-right:2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor:pointer;
+    display: block;
+    margin-bottom: auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    background: linear-gradient(to right,aliceblue,aliceblue);
+    border-radius: 30px;
+    
+}
+.submit-btnn{
+    margin-top: 15px;
     width:50%;
     padding-left: 2px;
     padding-right:2px;
