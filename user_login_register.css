@@ -14,7 +14,7 @@ h2{
     color:white;
     margin:35px auto;
     position:relative;
-    width:90%;
+    width:95%;
     padding:0px;
     margin-top: 2px;
 }
@@ -53,24 +53,34 @@ h2{
 .form-box::-webkit-scrollbar-thumb:hover {
     background-color: rgba(3, 2, 20, 0.75);
 }
-.button-box{
-    width:320px;
-    height:60px;
+.button-box {
+    width: 320px;
+    height: 60px;
     margin: 8px auto;
-    position:relative;
-    box-shadow: 0px 4px 15px white;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); /* Soft dark shadow */
     border-radius: 30px;
+    background: linear-gradient(145deg, #1f1c2c, #928dab); /* Modern gradient */
 }
-.toggle-btn{
-    padding:20px 50px;
-    cursor:pointer;
-    font-size: 15px;
+
+.toggle-btn {
+    padding: 20px 50px;
+    cursor: pointer;
+    font-size: 16px;
     background: transparent;
-    border:0;
-    position:relative;
-    color:red;
-    font-weight: 500;
+    border: 0;
+    position: relative;
+    color:  #e91e63; /* Vibrant yellow */
+    font-weight: 600;
+    text-shadow: 0px 0px 8px rgba(233, 30, 99, 0.8); /* Glow effect for text */
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
+
+.toggle-btn:hover {
+    color: #e91e63; /* Rich pink on hover */
+    text-shadow: 0px 0px 12px rgba(233, 30, 99, 0.8); /* Glow effect */
+}
+
 #btn{
     top:0;
     left:0;
@@ -182,12 +192,12 @@ span{
     color:white;
 }
 .submit-btn{
-    margin-top: 5px;
+    margin-top: 8px;
     width:50%;
     padding-left: 2px;
     padding-right:2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     cursor:pointer;
     display: block;
     margin-bottom: 500px;
