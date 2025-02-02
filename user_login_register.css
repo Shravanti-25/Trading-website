@@ -14,7 +14,7 @@ h2{
     color:white;
     margin:35px auto;
     position:relative;
-    width:80%;
+    width:90%;
     padding:0px;
     margin-top: 2px;
 }
@@ -32,13 +32,26 @@ h2{
 }
 .form-box{
     width:380px;
-    height:585px;
+    height:545px;
     position:relative;
     margin: 3% auto;
     background: rgba(3, 2, 20, 0.75);
     padding: 20px;
     color:aliceblue;
     overflow:hidden;
+    overflow-y: auto;
+}
+.form-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.form-box::-webkit-scrollbar-thumb {
+    background-color: rgba(3, 2, 20, 0.75);
+    border-radius: 4px;
+}
+
+.form-box::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(3, 2, 20, 0.75);
 }
 .button-box{
     width:320px;
@@ -109,14 +122,14 @@ h2{
     color:white;
 }
 .check-box{
-    margin: 10px 10px 10px 0;
+    margin: 15px 15px 15px 0;
 }
 .check-boxx{
     margin: 10px 10px 10px 0;
 }
 .input-wrapper {
     position: relative;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .input-wrapperr {
     position: relative;
@@ -177,7 +190,7 @@ span{
     padding-bottom: 5px;
     cursor:pointer;
     display: block;
-    margin-bottom: auto;
+    margin-bottom: 500px;
     margin-left: 95px;
     margin-right: 95px;
     background: linear-gradient(to right,aliceblue,aliceblue);
